@@ -1,0 +1,146 @@
+{
+  "name": "PCI Stock",
+  "version": "0.1.0",
+  "files": [
+    {
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "BASE-CONTEXTO.md",
+      "sha256": "adde1415dd057f27641cbae32d8bbe3ac14b517e2d9ecc047f56c1f449b0b65f",
+      "bytes": 4652
+    },
+    {
+      "path": "MANIFEST-DATOS.json",
+      "sha256": "aa9193932e52ebef4056327e3ec5692bb4b87c430b305967bd1fc4098cd7a3e5",
+      "bytes": 2360
+    },
+    {
+      "path": "PRUEBAS.md",
+      "sha256": "bf3488dc2b0db13f86c7a3fcd5437e2c2c84f2db8fe131cca75f27d9667e992c",
+      "bytes": 6491
+    },
+    {
+      "path": "README.md",
+      "sha256": "7230bef5d5bbd8b780f1e13634328f1d8556c8c6ec4f054b2f16b874a201c120",
+      "bytes": 9725
+    },
+    {
+      "path": "assets/stock-export.js",
+      "sha256": "0c708f95be9f77514faf6f597361049ec1ba30133804049593b364857a512f84",
+      "bytes": 2262
+    },
+    {
+      "path": "assets/stock-store.js",
+      "sha256": "b6bd13e3f6c84d60d3d2d99f4d8a9f793ddd249dd31b415f16ba947d0359dd79",
+      "bytes": 11563
+    },
+    {
+      "path": "assets/stock-ui.js",
+      "sha256": "6fd31516860ba72f4bc9ff9782267fee1cfafa74609035d9e27f456414a8d9b9",
+      "bytes": 25110
+    },
+    {
+      "path": "assets/stock.css",
+      "sha256": "3d6d6cbdd2c11683130aa3a38b1695296262b76eb19496c6fdad4dfbac625a7b",
+      "bytes": 4894
+    },
+    {
+      "path": "data/anniversary-catalog.json",
+      "sha256": "46af83756f7ab22ed51cc43a0c50ae4a4552d0dc839e2e2fc09964f2814f3716",
+      "bytes": 434258
+    },
+    {
+      "path": "data/anniversary-index.bin",
+      "sha256": "4b878c2f64ee7a10fe3836ac602ee4f3c594ef70b87458813786c412cbcd8d54",
+      "bytes": 136512
+    },
+    {
+      "path": "data/anniversary-index.json",
+      "sha256": "4843189b396d9240089f3d6254b137bd4862936271bc5b517a11f81767e0a4c9",
+      "bytes": 18773
+    },
+    {
+      "path": "data/anniversary-local.bin",
+      "sha256": "8fe665fc394caffb6684d8a7dd0b2cdb2bb4723961a38adf4be61b10b49e2b3f",
+      "bytes": 1689120
+    },
+    {
+      "path": "data/anniversary-local.json",
+      "sha256": "71ca8b0bef76ffa4a25a9e8d3817f267410df1e92818f8a17a964de6ff9db789",
+      "bytes": 6571
+    },
+    {
+      "path": "data/local-features.bin",
+      "sha256": "55e51c86a5f077fb374f9bbd8b09d630f7108e86928d2c596ed4b5254112530c",
+      "bytes": 2203848
+    },
+    {
+      "path": "data/local-features.json",
+      "sha256": "9a6157ee8faf921a3af8997f29aa6f708c81c94a7e90e80af88078b0607a33e4",
+      "bytes": 8298
+    },
+    {
+      "path": "data/visual-index-ja.bin",
+      "sha256": "99651aed4bc818d9586be955478ad1bf2388bf067968e2e480df78dc84bdffd7",
+      "bytes": 3354048
+    },
+    {
+      "path": "data/visual-index-ja.json",
+      "sha256": "fe1f9dd3ed6bb1ac8155170e88d7cd1f1de53f505f3578e60acee87171990128",
+      "bytes": 429084
+    },
+    {
+      "path": "data/visual-index.bin",
+      "sha256": "1fcbad9474cc06f6f816ba3ccdac9ed591b6723cca05965c29593e192cba21a9",
+      "bytes": 16854048
+    },
+    {
+      "path": "data/visual-index.json",
+      "sha256": "42130b84009c73fd475710e6f2b2f4e286e97b0b9ff20dc4e8ea81327dce329f",
+      "bytes": 2029810
+    },
+    {
+      "path": "index.html",
+      "sha256": "84cd4da585892f571e63b361f953b879d675a12321ef72916e82a812237169a6",
+      "bytes": 188405
+    },
+    {
+      "path": "package.json",
+      "sha256": "e7e85d4b377fe418b4a3bcbe2b5cef7006ca4caf187adf9db150b29caf0acdbe",
+      "bytes": 177
+    },
+    {
+      "path": "tests/RESULTADOS.json",
+      "sha256": "9a8a6faf5a105404634c498a7adfaf1201dba04143ba0ec3283d3f9e188ace46",
+      "bytes": 1372
+    },
+    {
+      "path": "tests/engine.spec.cjs",
+      "sha256": "9ec030e1ef61a88cf3d9076cc8f5e25695bd8136a41f6add71e4415037c37522",
+      "bytes": 1491
+    },
+    {
+      "path": "tests/inventory.spec.cjs",
+      "sha256": "1394ffff5cf76e098f456e73c07126b796dad50f5431b51de03f09c5b6ade3e5",
+      "bytes": 14625
+    },
+    {
+      "path": "vendor/EXCELJS-LICENSE.txt",
+      "sha256": "2ed526b7e7c7681dc2347995b5036ddf73dc27d0539cdea59b6d4a72b63a57a0",
+      "bytes": 1084
+    },
+    {
+      "path": "vendor/PROCEDENCIA.md",
+      "sha256": "149ed926ade3ad74321b7c0ac592076c0ba8c7ca9f3a1a17db2c98042bea573a",
+      "bytes": 1044
+    },
+    {
+      "path": "vendor/exceljs-4.4.0.min.js",
+      "sha256": "7e49da68588e250dbb8bba190d2caa8ab3787cc0284bda1d8b2f805c4df742c9",
+      "bytes": 947702
+    }
+  ]
+}

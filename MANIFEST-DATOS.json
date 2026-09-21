@@ -1,0 +1,74 @@
+{
+  "app": "PCI Stock",
+  "version": "0.1.0",
+  "base_version": "1.14.0",
+  "base_html_sha256": "cbd4a08ad568b2af1548f6809fe48562ac724fc3364400b382a09b330d2b84e1",
+  "files": [
+    {
+      "file": "data/anniversary-catalog.json",
+      "bytes": 434258,
+      "sha256": "46af83756f7ab22ed51cc43a0c50ae4a4552d0dc839e2e2fc09964f2814f3716",
+      "unchanged_from_input": true
+    },
+    {
+      "file": "data/anniversary-index.bin",
+      "bytes": 136512,
+      "sha256": "4b878c2f64ee7a10fe3836ac602ee4f3c594ef70b87458813786c412cbcd8d54",
+      "unchanged_from_input": true
+    },
+    {
+      "file": "data/anniversary-index.json",
+      "bytes": 18773,
+      "sha256": "4843189b396d9240089f3d6254b137bd4862936271bc5b517a11f81767e0a4c9",
+      "unchanged_from_input": true
+    },
+    {
+      "file": "data/anniversary-local.bin",
+      "bytes": 1689120,
+      "sha256": "8fe665fc394caffb6684d8a7dd0b2cdb2bb4723961a38adf4be61b10b49e2b3f",
+      "unchanged_from_input": true
+    },
+    {
+      "file": "data/anniversary-local.json",
+      "bytes": 6571,
+      "sha256": "71ca8b0bef76ffa4a25a9e8d3817f267410df1e92818f8a17a964de6ff9db789",
+      "unchanged_from_input": true
+    },
+    {
+      "file": "data/local-features.bin",
+      "bytes": 2203848,
+      "sha256": "55e51c86a5f077fb374f9bbd8b09d630f7108e86928d2c596ed4b5254112530c",
+      "unchanged_from_input": true
+    },
+    {
+      "file": "data/local-features.json",
+      "bytes": 8298,
+      "sha256": "9a6157ee8faf921a3af8997f29aa6f708c81c94a7e90e80af88078b0607a33e4",
+      "unchanged_from_input": true
+    },
+    {
+      "file": "data/visual-index-ja.bin",
+      "bytes": 3354048,
+      "sha256": "99651aed4bc818d9586be955478ad1bf2388bf067968e2e480df78dc84bdffd7",
+      "unchanged_from_input": true
+    },
+    {
+      "file": "data/visual-index-ja.json",
+      "bytes": 429084,
+      "sha256": "fe1f9dd3ed6bb1ac8155170e88d7cd1f1de53f505f3578e60acee87171990128",
+      "unchanged_from_input": true
+    },
+    {
+      "file": "data/visual-index.bin",
+      "bytes": 16854048,
+      "sha256": "1fcbad9474cc06f6f816ba3ccdac9ed591b6723cca05965c29593e192cba21a9",
+      "unchanged_from_input": true
+    },
+    {
+      "file": "data/visual-index.json",
+      "bytes": 2029810,
+      "sha256": "42130b84009c73fd475710e6f2b2f4e286e97b0b9ff20dc4e8ea81327dce329f",
+      "unchanged_from_input": true
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"name":"pci-stock","version":"0.1.0","private":true,"scripts":{"test":"node tests/engine.spec.cjs && node tests/inventory.spec.cjs"},"devDependencies":{"playwright":"1.62.1"}}

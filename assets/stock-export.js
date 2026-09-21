@@ -1,0 +1,11 @@
+'use strict';
+window.StockExport = (()=>{
+ const columns=[['id','ID interno'],['tcg','TCG'],['provider','Proveedor'],['referenceId','ID referencia'],['name','Nombre'],['set','Colección'],['number','Número impreso'],['language','Idioma'],['variant','Variante / edición'],['finish','Acabado'],['condition','Condición declarada'],['quantity','Cantidad'],['location','Ubicación'],['cost','Coste unitario'],['price','Precio de venta'],['currency','Moneda'],['createdAt','Creación'],['updatedAt','Actualización'],['notes','Notas'],['mergedInto','Fusionado en']];
+ // Quotes alone do not neutralize spreadsheet formulas. Preserve original text in XLSX/JSON.
+ const safeText=v=>/^[\s\u0000-\u001f]*[=+\-@]/u.test(String(v))?"'"+v:String(v);
+ const quote=v=>'"'+String(v??'').replace(/"/g,'""')+'"';
+ function csv(products){return '\uFEFF'+[columns.map(c=>quote(c[1])).join(';'),...products.map(p=>columns.map(([k])=>quote(k==='quantity'?p[k]:safeText(p[k]??''))).join(';'))].join('\r\n')+'\r\n'}
+ async function xlsx(products,movements=[]){if(!window.ExcelJS)throw Error('Falta vendor/exceljs-4.4.0.min.js. Comprueba que subiste la carpeta vendor.');const w=new ExcelJS.Workbook();w.creator='PCI Stock';w.created=new Date();const sheet=w.addWorksheet('Inventario');sheet.addRow(columns.map(c=>c[1]));for(const p of products){const row=sheet.addRow(columns.map(([k])=>k==='quantity'?p[k]:String(p[k]??'')));columns.forEach(([k],i)=>{if(k!=='quantity'){row.getCell(i+1).numFmt='@';row.getCell(i+1).value=String(p[k]??'')}})}sheet.views=[{state:'frozen',ySplit:1}];sheet.autoFilter={from:'A1',to:'T1'};sheet.columns.forEach(c=>c.width=22);sheet.getRow(1).font={bold:true};const log=w.addWorksheet('Movimientos');const keys=['id','productId','type','delta','before','after','reason','date','reverses'];log.addRow(keys);for(const m of movements)log.addRow(keys.map(k=>['delta','before','after'].includes(k)?m[k]:String(m[k]??'')));return await w.xlsx.writeBuffer()}
+ function download(data,name,type){const url=URL.createObjectURL(new Blob([data],{type}));const a=document.createElement('a');a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000)}
+ return{columns,csv,xlsx,download,safeText};
+})();

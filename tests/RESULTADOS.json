@@ -1,0 +1,26 @@
+{
+  "browser": "chromium",
+  "passed": [
+    "Initial application / mobile width / no errors",
+    "One action is idempotent under concurrent double press",
+    "Two identical copies in distinct actions add two units",
+    "Language, unknown vs confirmed variants and location split SKU",
+    "Undo creates inverse ledger entry",
+    "Negative exit aborts transaction; no movement persisted",
+    "Exit, adjustment, stale revision protection",
+    "Collision requires consent; merge preserves IDs, quantities and ledger",
+    "Real IndexedDB survives reload; own namespace",
+    "JSON validation, tamper rejection, restore and duplicate import guard",
+    "CSV BOM, quotes, newlines, Unicode and formula neutralization",
+    "Real XLSX strings preserve number, IDs and formula-looking text",
+    "Storage write failure rolls back product AND movement",
+    "Disjoint backup import keeps metadata and rejects repetition",
+    "Two tabs serialize same entry action in IndexedDB",
+    "UI add double click, render cannot add stock, next same card action",
+    "Inventory screen, filters, edit, history UI",
+    "Front-only recognition flow preserves automatic ES/EN pipeline (mocked providers)",
+    "Capture remains single-frame, no OCR gating; upload auto-identifies with no reverse",
+    "Cancellation discards stale recognition before catalog write"
+  ],
+  "errors": []
+}
