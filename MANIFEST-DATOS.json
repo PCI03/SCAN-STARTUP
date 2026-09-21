@@ -1,6 +1,6 @@
 {
   "app": "PCI Stock",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "base_version": "1.14.0",
   "base_html_sha256": "cbd4a08ad568b2af1548f6809fe48562ac724fc3364400b382a09b330d2b84e1",
   "files": [
